@@ -36,3 +36,77 @@ input {
 img {
 	max-width: 300px;
 }
+
+#duck{
+	height: 10%;
+	width: 10%;
+}
+
+.welcome-message, p{
+font-size: 30px;
+font-weight: bolder;
+}
+
+.welcome-message, ul, li{
+	font-size: 20px;
+	font-weight: normal;
+	}
+
+	.checkbox-title, p{
+font-size: 20px;
+font-weight: normal;
+padding-top: 10px;
+	}
+
+
+	/**PROFILE HTML**/
+
+	.header, h1{
+		font-family: 'Dongle', sans-serif;
+		font-size: 50px;
+	}
+
+	.skills-column, h3{
+		font-family: 'Dongle', sans-serif;
+		font-size: 50px;
+	}
+
+	#list, li{
+		font-size: 30px;
+	}
+
+	/** FLEXCONTAINER **/
+	.flex-container {
+		display: flex;
+		background: #fdc57b; 
+	  }
+	  
+	  .flex-container > ul > li{
+		background: #fbf2d5; 
+		margin: 10px;
+		padding: 20px;
+		font-size: 20px;
+		list-style-type: none;
+		width:360px;
+	  }
+
+	  /**BUTTON LIST **/
+	  .btn-list{
+		  padding-top: 20px;
+
+	  }
+
+	.btn{
+		background-color: yellow;
+		border: none;
+		color: black;
+		padding: 16px 20px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 12px;
+		margin: 4px 2px;
+		cursor: pointer;;
+	  }
+
+	

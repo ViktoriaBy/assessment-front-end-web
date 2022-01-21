@@ -16,10 +16,19 @@
 
 	<content>
 		<h1>Welcome to this little website.</h1>
-		<p>Hello World</p>
-		
+		<p>Hello World</p> 
+		<!--ADD A DUCK IMAGE-->
+		<img src="rubber-duck.png" id="duck">
 
-		<img src="https://pbs.twimg.com/profile_images/1267905793610772480/rks7KARB_400x400.jpg">
+		<!--COPLIMENT SECTION WITH 3 BULLETPOINTS-->
+		<div class="welcome-message">
+			<p>Welcome to this little Website!</p>
+			<ul>
+				<li>You look good today!</li>
+				<li>You will achive all your goals for today!!</li>
+				<li>..And you are smart!</li>
+			</ul>
+		</div>
 
 		<h2>Contact Us</h2>
 		<form id="contact">
@@ -28,8 +37,30 @@
 
 			Message:
 			<input type="textarea">
+			<!--FORM INPUT WITH CHECKBOX-->
+			<div class="checkbox-title">
+				<p> How did you hear about us?</p>
+			</div>
 
-			<input type="submit">
+			<input type="checkbox" name="google" id="google" style="display: inline-block;
+			vertical-align: middle;" />
+			<label for="google">google</label>
+
+			<input type="checkbox" name="indeed" id="indeed" style="display: inline-block;
+			vertical-align: middle;" />
+			<label for="indeed">indeed</label>
+
+			<input type="checkbox" name="friend" id="friend" style="display: inline-block;
+			vertical-align: middle;" />
+			<label for="friend">a friend</label>
+
+			<input type="checkbox" name="other" id="other" style="display: inline-block;
+			vertical-align: middle;" />
+			<label for="other">other</label>
+			<br>
+			<br>
+
+			<input type="submit" >
 
 
 		</form>
