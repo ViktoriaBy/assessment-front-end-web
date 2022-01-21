@@ -120,7 +120,7 @@ padding-top: 10px;
 		font-family: 'Dongle', sans-serif;
 		font-size: 50px;
 	  }
-
+/* 
 	  #restaurant-list, a{
 		  list-style-type: none;
 		  text-decoration: none;
@@ -130,7 +130,7 @@ padding-top: 10px;
 	  .toVisit, li, a{
 		list-style-type: none;
 		text-decoration: none;
-	  }
+	  } */
 
 	  #rest-btn{
 		background-color: white;
