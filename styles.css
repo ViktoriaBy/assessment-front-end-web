@@ -109,4 +109,43 @@ padding-top: 10px;
 		cursor: pointer;;
 	  }
 
-	
+	  /**MY CITY **/
+
+	  .header-city, h1{
+		font-family: 'Dongle', sans-serif;
+		font-size: 50px;
+	  }
+
+	  .restuarants, h3{
+		font-family: 'Dongle', sans-serif;
+		font-size: 50px;
+	  }
+
+	  #restaurant-list, a{
+		  list-style-type: none;
+		  text-decoration: none;
+
+	  }
+
+	  .toVisit, li, a{
+		list-style-type: none;
+		text-decoration: none;
+	  }
+
+	  #rest-btn{
+		background-color: white;
+		border: 1px solid black;
+		color: black;
+		padding: 16px 10px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 20px;
+		margin: 4px 2px;
+		cursor: pointer;;  
+	  }
+
+	  #rest-btn:hover{
+		  background-color: lightgray;
+		  color:white;
+	  }
